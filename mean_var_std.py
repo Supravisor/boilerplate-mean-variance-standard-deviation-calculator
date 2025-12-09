@@ -11,5 +11,6 @@ def calculate(list):
         "mean": [(matrix.mean(axis=0).tolist()), (matrix.mean(axis=1).tolist()), (matrix.flatten().mean())],
         "variance": [(matrix.var(axis=0).tolist()), (matrix.var(axis=1).tolist()), (matrix.flatten().var())],
         "standard deviation": [(matrix.std(axis=0).tolist()), (matrix.std(axis=1).tolist()), (matrix.flatten().std())],
-        "max": [(matrix.max(axis=0).tolist()), (matrix.max(axis=1).tolist()), (matrix.flatten().max())]
+        "max": [(matrix.max(axis=0).tolist()), (matrix.max(axis=1).tolist()), (matrix.flatten().max())],
+        "min": [(matrix.min(axis=0).tolist()), (matrix.min(axis=1).tolist()), (matrix.flatten().min())]
     }
